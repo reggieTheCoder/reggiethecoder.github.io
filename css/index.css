@@ -195,20 +195,28 @@ img {
     display: none;
   }
 }
-.navigation-bar2 a {
+.navigation-bar2 .links {
   color: #6D3131;
   padding: 0% 3%;
   text-decoration: none;
   font-size: 1.5rem;
 }
-.navigation-bar2 a:hover {
+.navigation-bar2 .links:hover {
   background-color: #E1F2F6;
   font-weight: bolder;
   text-decoration: none;
 }
 footer {
   background-color: #7E7E7E;
-  color: #3C646D;
+  text-align: left;
+  padding: 0 3%;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+footer .shiftRight {
+  text-align: right;
 }
 .container {
   color: #818181;
@@ -228,6 +236,11 @@ footer {
   background-color: #87A9B0;
   padding: 3% 7%;
   margin: 0 10%;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
+  .container button {
+    padding: 2% 5%;
+  }
 }
 @media only screen and (min-width : 1224px) {
   .container button {
